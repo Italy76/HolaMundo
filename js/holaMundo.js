@@ -13,11 +13,11 @@
  //Mostrar u mensaje en una ventana emergente. Comillas obligatorias para escribir texto.
  alert("Hola Mundo");
 
- // Crear una variable (var - let - const). Nombrar variables sin espacios; usar guio bajo o cammel case. Las comillas toman todo como texto.
+ // Crear una variable (var - let - const). Nombrar variables sin espacios; usar guion bajo o cammel case. Las comillas toman todo como texto.
 
  let comision = "16i";
 
-// ir a otra linea con el texto: escribir <b>texto a imprimir: (con dos puntos finales). Dejar un espacio, cerrar comillas y escribir +nomre variable.
+// ir a otra linea con el texto: escribir <br>texto a imprimir: (con dos puntos finales). Dejar un espacio, cerrar comillas y escribir +nombre variable.
  document.write("<br>comision: "+comision)
 
  // Modificar el contenido de una variable.
