@@ -13,7 +13,7 @@
  //Mostrar u mensaje en una ventana emergente. Comillas obligatorias para escribir texto.
  alert("Hola Mundo");
 
- // Crear una variable (var - let - const). Nombrar variables sin espacios; usar guion bajo o cammel case. Las comillas toman todo como texto.
+ // Crear una variable (var - let - const). Nombrar variables sin espacios; usar guion bajo o camel case. Las comillas toman todo como texto.
 
  let comision = "16i";
 
