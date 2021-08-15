@@ -1,3 +1,6 @@
 alert("un mensaje");
 document.write("Hello World");
-document.write
+document.write(3+5);
+let nombre = prompt("NombreUsuario")
+document.write("<br>Hola "+nombre)
+
