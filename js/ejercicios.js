@@ -3,6 +3,7 @@ document.write("Hello World");
 document.write(3+5);
 let nombre = prompt("NombreUsuario")
 document.write("<br>Hola "+nombre)
-let n1 = prompt("Primer numero")
-let n2 = prompt("Segundo numero")
-document.write("suma "+ ( parseInt(n1)+ parseInt(n2)))
+let numero1 = ParceInt (prompt("Ingrese primer numero"))
+let numero2 = ParceInt (prmpt("Ingrese segundo numero"))
+document.write ( "La suma es " + (numero1+numero2))
+
