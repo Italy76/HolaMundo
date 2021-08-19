@@ -37,3 +37,4 @@ if(numero1 % 2 == 0){
 if(numero1 % 2 == 0 || numero1 % 3 == 0 || numero1 % 5 == 0 || numero1 % 7 == 0){
     document.write ("<br> El numero es divisible por 2, 3, 5, o 7")
 }
+// el else se puede usar solo con un if: por cada if hay un else.
