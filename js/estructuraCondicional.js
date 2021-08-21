@@ -4,7 +4,7 @@ document.write ("Numero 1= "+numero1);
 document.write ("<br> Numero 2= "+numero2);
 
 // Estructura if 
-/* if(condicion logica){
+/* if(condicion logica && condicion logica || condicion logica){
 codigo a ejecutar si la respuesta es verdadera o true
 }
 */
