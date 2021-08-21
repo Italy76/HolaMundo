@@ -1,23 +1,33 @@
-document.write("Elemento 1")
-document.write("<br>Elemento 2")
-document.write("<br>Elemento 2")
-document.write("<br>Elemento 2")
-document.write("<br>Elemento 2")
+/*document.write("Elemento 1");
+document.write("<br>Elemento 2");
+document.write("<br>Elemento 3");
+document.write("<br>Elemento 4");
+document.write("<br>Elemento 5");
+document.write("<br>Elemento 6<br>");*/
+
+//Bucles: sirven para repetir muchas lineas de codigo a la vez.
+
+/* la rama dev de GitHub e una suerte de rama master secudaria hecha para probar. 
+Sobre la dev se crean las ramas, respaldando la master.*/
 
 /* while(condicion logica){
     el codigo a ejecutar
     cambiar condicion logica
 }
 */
+/*Llegado al final, el while se vuelve a repetir. Po eso en algu momento 
+hay que cambiar la condicion logica para detener el bucle*/
+// Cuando se trabaja con bucles, es recomendable desactivae Live Server.
 
-let contador = 20
+let contador = 2
 console.log(contador)
-while(contador ,+ 20){
-    document.write("Elemento "+ contador + "<br>")
-
-    //contador++
-    contador = contador + 2
+while(contador <=20){
+    document.write ("Elemento "+ contador + "<br>");
+   /* contador ++ */contador = contador +2;
 }
+/* Si quiero imprimir solo los numeros pares, let contador = 2, y usar contador = contador + 2 */
+/* Podemos agregar todos los + que queramos para concatenar. El <br> va despues 
+porque aplicamos el salto de texto tras haber concatenado el valor de la clase contenedor.
 
 //do-while hacer ...mientras se cumple la condicion logica
 
