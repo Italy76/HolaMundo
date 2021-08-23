@@ -27,18 +27,22 @@ while(contador <=20){
 }
 /* Si quiero imprimir solo los numeros pares, let contador = 2, y usar contador = contador + 2 */
 /* Podemos agregar todos los + que queramos para concatenar. El <br> va despues 
-porque aplicamos el salto de texto tras haber concatenado el valor de la clase contenedor.
+porque aplicamos el salto de texto tras haber concatenado el valor de la clase contenedor.*/
 
 //do-while hacer ...mientras se cumple la condicion logica
 
-let cont = 1;
+let cont = 100;
 do{
     //codigo que quiero ejecutar
     document.write("Contador" + cont + "<br>");
     //Cambio la condicion logica
- cont ++
-}while(cont <= 20)
+ cont--
+}while(cont >= 20)
 // si con el do-while no se cumple la condicion, igual e escribe en la pagina almenos una vez
+/*Para decrementar usar la variable con el signo doble -- o bien -numero a sustraer
+ (para incrementar usar doble ++). En el while indicar
+variable >=.
+*/
 
 /*for(crear la variable; condicion logica; incrementar o decrementar la variable){
     ....codigo a ejecutar muchas veces
