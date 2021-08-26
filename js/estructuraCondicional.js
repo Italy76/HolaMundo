@@ -19,7 +19,7 @@ else{
     document.write("<br> El numero 2 es mayor que el numero 1")
 }
 
-//concole.log sirve para visualizar en la consola las variables y/o los resultados
+//console.log sirve para visualizar en la consola las variables y/o los resultados
 console.log('hola')
 console.log(numero1)
 
