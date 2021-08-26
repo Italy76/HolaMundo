@@ -46,7 +46,11 @@ series[4] = "Vikingos"
 puede usarse todo tipo de dato(numeros, cadena de texto, etc.).*/
 for(let posicion = 0; posicion < series.length; posicion++){
     document.write("<br>Serie:"+ series[posicion])
-}
+};
+
+
+
+
 
 /*Eliminar todos los elementos desde una posicion particular.
 series.splice(2) --- En este caso, usando un solo valor dentro las parentesis, splice elimina todos
