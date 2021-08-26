@@ -27,7 +27,7 @@ cero (0).*/
 
 //Agregar un elemento en una posicion particular: nombre arreglo.splice
 series.splice(1,0,"Loki");
-/* nombre arreglo.series(posicion donde quiero insertar el nuevo dato, numero de datos que quiero borrar
+/* nombre arreglo.splice(posicion donde quiero insertar el nuevo dato, numero de datos que quiero borrar
     desde la posicion en donde quiero insertar el nuevo dato,  nombre del dato que quiero agregar).*/
    
 for(let posicion = 0; posicion < series.length; posicion++){
