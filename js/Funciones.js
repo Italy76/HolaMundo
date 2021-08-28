@@ -14,7 +14,7 @@ parametros que sean descriptivos. */
 function saludar(nombre, apellido){
     document.write("<br>Hola, mi nombre es:" + nombre + " y mi apellido es: "+ apellido);
 }
-//Dentro de los parentesis pongo los valore que quiero recibir desde el exterior.
+//Dentro de los parentesis pongo los valores que quiero recibir desde el exterior.
 //Ejecutar o invocar o llamar una funcion.
 holaMundo();
 
@@ -34,7 +34,8 @@ let nombre = prompt("Ingrese un nombre");
 let apellido = prompt("Ingrese un apellido");
 saludar(nombre, apellido)
 /*Hemos creado estas variables fuera de las funciones. Fue posible porque solo existian dentro de la
-funcion, o sea eran variables locales. Toda variable creada fuera es global.*/
+funcion, o sea eran variables locales. Toda variable creada fuera es global. Las variabes globales
+tienen validez a partir de donde han sido creadas.*/
 
 /* La variable var es solo global, o sea, no puede ser usada dentro de un bucle, 
 de una funcion, de un if, etc. La variable let es local, y puede usarse tambien 
@@ -43,4 +44,4 @@ como global. Se recomienda no usar la variable var nunca.*/
 let precioIphone = convertirDolaresPesos(599)
 document.write("<br>Iphone SE $" + precioIphone)
 document.write("<br>Jordan $"+ convertirDolaresPesos(200));
-// Como se ve, en el document write podemos llamar a la variable o a la fincion.
+// Como se ve, en el document write podemos llamar a la variable o a la funcion.
