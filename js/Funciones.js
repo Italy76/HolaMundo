@@ -34,7 +34,7 @@ let nombre = prompt("Ingrese un nombre");
 let apellido = prompt("Ingrese un apellido");
 saludar(nombre, apellido)
 /*Hemos creado estas variables fuera de las funciones. Fue posible porque solo existian dentro de la
-funcion, o sea eran variables locales. Toda variable creada fuera es global. Las variabes globales
+funcion, o sea eran variables locales. Toda variable creada fuera es global. Las variables globales
 tienen validez a partir de donde han sido creadas.*/
 
 /* La variable var es solo global, o sea, no puede ser usada dentro de un bucle, 

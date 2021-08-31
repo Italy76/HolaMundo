@@ -8,8 +8,8 @@ let series = ["Naruto", "Good doctor", "Juego de tronos", 2, 8, true];
 //El arreglo se reconoce por los corchetes. Separar con coma en su interior.
 //Mostrar un valor de un arreglo.
 document.write(series[2]);
-// 2 es la posicion de Huego de tronos. Los corchetes van pegados al nomnre de la variable.
-// Crear un arreglo vacio. Sirve no todavia no tenemos los datos.
+// 2 es la posicion de Juego de tronos. Los corchetes van pegados al nombre de la variable.
+// Crear un arreglo vacio. Sirve, todavia no tenemos los datos.
 let temporadas = []
 //agregar un elemento al final del arreglo: nombre arreglo.push
 series.push("Dr. House")
@@ -40,7 +40,7 @@ for(let posicion = 0; posicion < series.length; posicion++){
     document.write("<br>Serie:"+ series[posicion])
 }
 
-//Modificar un elemento desde ua posicion particular del arreglo.
+//Modificar un elemento desde una posicion particular del arreglo.
 series[4] = "Vikingos"
 /*Nombre de Arreglo[posicion en que queremos hacer modificacion] = nombre asignado,
 puede usarse todo tipo de dato(numeros, cadena de texto, etc.).*/
