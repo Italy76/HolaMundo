@@ -87,6 +87,6 @@ document.write("<br>Mostrar precio nuevo: $"+ strange.mostrarPrecio) // Usamos e
 
 let juan = new Persona("Juan", "Alaniz", 33484859, "jalaniz@gmail.com", "1142779875", 35);
 let abel = new Persona("Abel", "Cordoba", 34843859, "acordoba@gmail.com", "1157789123", 34);
-// Visualizo los dos objetos (let juan y let abel) que avabo de crear.
+// Visualizo los dos objetos (let juan y let abel) que acabo de crear.
 juan.mostrarDatos();
 abel.mostrarDatos();
