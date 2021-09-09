@@ -9,7 +9,7 @@ function holaMundo(){
 
 //Funciones con parametros.
 /*Todo lo que se escribe dentro de los parentesis de una funcion son paramertros. Ellos son
-variables que creamos, sin usar var, let o const. Aceptan valores desde afuera. Usar nombre de 
+variables que creamos, sin usar var, let o const. Aceptan valores desde afuera. Usar nombres de 
 parametros que sean descriptivos. */
 function saludar(nombre, apellido){
     document.write("<br>Hola, mi nombre es:" + nombre + " y mi apellido es: "+ apellido);

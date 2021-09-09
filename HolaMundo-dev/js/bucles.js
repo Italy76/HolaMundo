@@ -15,7 +15,7 @@ Sobre la dev se crean las ramas, respaldando la master.*/
     cambiar condicion logica
 }
 */
-/*Llegado al final, el while se vuelve a repetir. Po eso en algu momento 
+/*Llegado al final, el while se vuelve a repetir. Po eso en algun momento 
 hay que cambiar la condicion logica para detener el bucle*/
 // Cuando se trabaja con bucles, es recomendable desactivae Live Server.
 

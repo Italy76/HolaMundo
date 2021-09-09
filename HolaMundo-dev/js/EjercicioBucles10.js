@@ -23,5 +23,5 @@ for(let indiceFila = 0; indiceFila < filas; indiceFila++){
 
 
 document.write("</table>");
-//La variable numero debe estar fiera de los dos bucles para que sea valida en ambos.
+//La variable numero debe estar fuera de los dos bucles para que sea valida en ambos.
 // las variables indiceFila e indiceColumna solo funcionan dentro de las llavecitas de los dos for anidados.

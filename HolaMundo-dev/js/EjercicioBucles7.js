@@ -1,22 +1,18 @@
-do{
-    let i;
-    let numero = prompt("Escribir un numero");
-    if(Number(numero) == numero){
-        if(numero > 0 && numero <= 50){
-            let rep = 0;
-            for(i= numero; i >= 1; i--){
-                for(rep = i; rep >= 1; rep--){
-                    document.write(i);
-                }
-                document.write("<br>");
-            }
-
-        }else{
-            alert("Insertar un numero valido");
+let i, pos;
+let numero = parseInt(prompt("Ingresar número"));
+if(Number(numero == numero)){
+    if(numero >= 1 && numero <=50){
+        for(i = numero; i>= 1; i--){
+           for(pos = numero; pos >= 1; pos--){
+               document.write(i)
+           }
+           document.write("<br>")
         }
+        
     }else{
-        if(numero != undefined){
-            alert("Introducir un valor correcto");
-        }
+        alert("Ingresar un numero entre 1 y 50")
     }
-}while(numero != undefined);
+
+}else{
+    alert("ingrese un valor numerico")
+}

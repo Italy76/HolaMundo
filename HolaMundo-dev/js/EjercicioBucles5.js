@@ -1,13 +1,16 @@
+//declaro la variable del resultado final (resto de división entre número introducido y 23).
+//Declaro la variable de la letra del DNI.
 let resto = 0;
 let letra = "";
 
+// Usar el do{}while() para especificar qué hacer y con cuales condiciones (if).
 do{
-    //Definir el cuadro donde introducir el DNI.
-    let numero = prompt("Introducir su DNI");
+    //Definir el cuadro donde introducir el número de DNI.
+    let numero = prompt("Introducir su número de DNI");
     // Condicion para que el valor introducido en la prompt sea un numero.
     if(Number(numero) == numero){
         numero = Number(numero);
-        //If anidado que dice entre que valores de estar comprendido en numero a introducir.
+        //If anidado que dice entre que valores deBE estar comprendido el numero a introducir.
         if(numero >= 0 && numero <= 99999999){
             //Resto que debe dar dividiendo el numero por 23.
             resto = numero % 23;
@@ -92,5 +95,8 @@ do{
             alert("No es un numero");
         }
     }
+// confirm para elegir Aceptar o Cancelar. Aceptar: sigue pidiendo insertar números. Cancelar: muestra los
+// resultados en la página (mediante el document.write).
+} while(confirm("Quiere continuar?")); 
+     document.write(resto);
 
-} while(numero != undefined);

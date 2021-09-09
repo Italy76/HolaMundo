@@ -1,9 +1,15 @@
-function numeroentero (numero){
- let resto = numero % 2
-if(numero % 2 == 0){
-     document.write("El numero es entero")
- }
- return resto
-}
+//Declaro variable.
+let numero = parseInt(prompt("Ingresar un número entero"));
 
-let resultado = numeroentero (4);
+
+//Declaro la función.
+
+function entero(numero) {
+    if(numero % 2 == 0){
+        document.write("El número es par.")
+    }else{
+        console.warn("Número impar")
+    }
+};
+// LLamo la función.
+entero(numero);

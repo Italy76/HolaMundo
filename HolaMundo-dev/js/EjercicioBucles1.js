@@ -1,6 +1,7 @@
-let edad = parseInt(prompt("Escribir la edad"))
+let edad = prompt("Ingrese su edad");
+
 if(edad > 18){
-    document.write("Usted puede conducir");
+    document.write("Usted puede conducir.");
 }else{
-    alert("Introducir un valor valido")
-}
+    console.warn("Valor incorrecto")
+};
